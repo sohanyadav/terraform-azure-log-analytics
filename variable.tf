@@ -27,8 +27,8 @@ variable "label_order" {
 
 variable "managedby" {
   type        = string
-  default     = "git::git@github.com:opsstation/terraform-azure-labels.git"
-  description = "ManagedBy, eg 'opsstation'."
+  default     = "git::git@github.com:sohanyadav/terraform-azure-labels.git"
+  description = "ManagedBy, eg 'sohanyadav'."
 }
 
 variable "enabled" {
